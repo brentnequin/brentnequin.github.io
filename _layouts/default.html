@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <script src="https://kit.fontawesome.com/046c6b2559.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+   </head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="/">Brent Nequin</a>
+        <nav class="navbar">
+          <a class="nav-link" href="/home/">Home</a>
+          <a class="nav-link" href="/about/">About</a>
+          <a class="nav-link" href="/blog/">Blog</a>
+          <a class="nav-link" href="/projects/">Projects</a>
+        </nav>
+      </div>
+    </header>
+    <main class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrapper">
+        <div class="footer-desc"><small>© Copyright by Brent Nequin</small></div>
+        <div class="socialicon-container">
+          <a class="socialicon" href="mailto:brentnequin@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+          <a class="socialicon" href="https://www.linkedin.com/in/brentnequin/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a class="socialicon" href="https://github.com/brentnequin"><i class="fab fa-github" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
