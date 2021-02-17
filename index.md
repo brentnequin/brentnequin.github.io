@@ -1,6 +1,5 @@
 ---
 layout: home
-permalink: /
 ---
 
 ## Hi, my name is Brent.
