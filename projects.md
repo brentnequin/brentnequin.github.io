@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Projects - Brent Nequin
+title: Projects
 permalink: /projects/
 ---
 
