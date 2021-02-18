@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Brent Nequin
 ---
 
 # Hi, my name is Brent.
