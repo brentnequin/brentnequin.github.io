@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About - Brent Nequin
 permalink: /about/
 ---
