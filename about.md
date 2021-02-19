@@ -6,4 +6,4 @@ permalink: /about/
 
 # About Brent
 
-<img align="right" src="assets/img/profilepicture.png">
+<img align="right" src="assets/img/profilepicture.jpg">
