@@ -109,14 +109,17 @@ body {
   color: black;
 }
 
+.education-list > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: grey;
+}
+
 .education-list > ul > li::marker {
   list-style-type: none;
   margin: 0 0 10px;
   padding: 0;
-}
-
-.education-list > ul > li {
-  color: grey;
 }
 
 .footer-desc {
