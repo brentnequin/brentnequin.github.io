@@ -112,7 +112,10 @@ body {
 .education-list > li::marker {
   font-family: 'FontAwesome';
   content: '\f19d';
-  margin-right: 5px;
+}
+
+.education-list > li::before {
+  padding-right: 5px;
 }
 
 .education-list > ul {
