@@ -109,7 +109,7 @@ body {
   color: black;
 }
 
-.education-list::before {
+.education-list > li::before {
   font-family: 'FontAwesome';
   content: '\f19d';
 }
