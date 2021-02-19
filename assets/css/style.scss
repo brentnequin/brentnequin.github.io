@@ -109,6 +109,12 @@ body {
   color: black;
 }
 
+.education-list > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .education-list > ul > li::marker {
   margin: 0px;
 }
