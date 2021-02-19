@@ -110,6 +110,13 @@ body {
   color: black;
 }
 
+.page-content img {
+  border-radius: 0.3em;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
+  box-sizing: border-box;
+  border: #fff 0.3em solid;
+}
+
 .education-list > li::marker {
   font-family: 'FontAwesome';
   content: '\f19d';
