@@ -13,3 +13,9 @@ permalink: /about/
   * University of Illinois at Chicago
 * BS in Electrical Engineering, 2019
   * University of Illinois at Chicago
+<ul class="education-list">
+    <li>MS in Electrical Engineering, 2020</li>
+    <ul><li>University of Illinois at Chicago</li></ul>
+    <li>BS in Electrical Engineering, 2019</li>
+    <ul><li>University of Illinois at Chicago</li></ul>
+</ul>
