@@ -109,7 +109,7 @@ body {
   color: black;
 }
 
-.education-list > li::before {
+.education-list > li::marker {
   font-family: 'FontAwesome';
   content: '\f19d';
 }
