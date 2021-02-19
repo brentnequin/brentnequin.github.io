@@ -109,6 +109,11 @@ body {
   color: black;
 }
 
+.education-list::before {
+  font-family: 'FontAwesome';
+  content: '\f19d';
+}
+
 .education-list > ul {
   list-style-type: none;
   margin: 0 0 10px;
