@@ -11,5 +11,5 @@ permalink: /about/
 ## Education
 * MS in Electrical Engineering, 2020
   * University of Illinois at Chicago
-* BS in Electrical Engineering, 2019 - University of Illinois at Chicago
+* BS in Electrical Engineering, 2019
   * University of Illinois at Chicago
