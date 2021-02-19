@@ -5,3 +5,5 @@ permalink: /about/
 ---
 
 # About Brent
+
+<img align="right" src="img/profilepicture.png">
