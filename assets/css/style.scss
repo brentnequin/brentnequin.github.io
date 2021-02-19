@@ -116,7 +116,9 @@ body {
 }
 
 .education-list > ul > li::marker {
-  margin: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-desc {
