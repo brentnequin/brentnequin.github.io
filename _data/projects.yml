@@ -1,5 +1,5 @@
 - name: InteractiveML
-  url: interactiveml.brentnequin.com
+  url: http://interactiveml.brentnequin.com
   description: "An interactive web tool designed to visualize various machine learning algorithms"
 
 - name: blah
