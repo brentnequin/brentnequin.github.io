@@ -9,7 +9,11 @@ permalink: /projects/
   {% for project in site.data.projects %}
     <li>
       <div class="project-block">
-        <h2>{{ project.name }}</h2>
+        {% if project.url %}
+        <a href={{ project.url }}><h2>{{ project.name }}</h2></a>
+        {% else %}
+          <h2>{{ project.name }}</h2>
+        {% endif %}
         <p>{{ project.description }}</p>
       </div>
     </li>
