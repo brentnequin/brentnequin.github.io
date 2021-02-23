@@ -16,9 +16,9 @@ A selection of projects I have worked on or am currently working on. You can fin
       <li class="project-block">
         <i class="fab fa-{{ project.icon }}"></i>
         {% if project.url %}
-        <a href="{{ project.url }}"><span>{{ project.name }}</span></a>
+        <a href="{{ project.url }}"><strong>{{ project.name }}</strong></a>
         {% else %}
-          <span>{{ project.name }}</span>
+          <strong>{{ project.name }}</strong>
         {% endif %}
         <span>{{ project.description }}</span>
       </li>
