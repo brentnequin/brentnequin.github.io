@@ -2,15 +2,12 @@
   projects:
     - name: InteractiveML
       url: http://interactiveml.brentnequin.com
-      description: "An interactive web tool designed to visualize various machine learning algorithms"
+      description: "An interactive web tool designed to visualize various machine learning algorithms. Built with [Flask](https://flask.palletsprojects.com/en/1.1.x/)."
       icon: python
-      
-    - name: blah
-      description: blah
-      icon: js-square
 
-- section-title: Blah
+- section-title: Misc
   projects:
-    - name: blah
-      description: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
-      icon: node-js
+    - name: Minecraft Server Status Discord Bot
+      url: https://github.com/brentnequin/Minecraft-Server-Status-Bot
+      description: "Discord bot reports the status of a Minecraft server (online, number of players, mods, etc.). Deployed using Heroku."
+      icon: python
