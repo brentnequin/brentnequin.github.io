@@ -12,7 +12,7 @@ permalink: /projects/
     {% for project in section.projects %}
       <li class="project-block">
         {% if project.url %}
-        <a rel="external" href="{{ project.url }}"><h2>{{ project.name }}</h2></a>
+        <a rel="external" href="{{ project.url }}"><p>{{ project.name }}</p></a>
         {% else %}
           <p>{{ project.name }}</p>
         {% endif %}
