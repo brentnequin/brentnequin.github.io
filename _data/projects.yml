@@ -3,11 +3,14 @@
     - name: InteractiveML
       url: http://interactiveml.brentnequin.com
       description: "An interactive web tool designed to visualize various machine learning algorithms"
+      icon: python
       
     - name: blah
       description: blah
+      icon: js-square
 
 - section-title: Blah
   projects:
     - name: blah
       description: blah
+      icon: node-js
