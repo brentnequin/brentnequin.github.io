@@ -5,6 +5,9 @@ permalink: /projects/
 ---
 
 # Projects
+
+A selection of projects I am have worked on or currently workin on. You can find these projects on my [GitHub profile](https://github.com/brentnequin).
+
 <ul class="section-list">
   {% for section in site.data.projects %}
   <li class="section-block">
