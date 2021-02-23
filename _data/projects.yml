@@ -1,4 +1,4 @@
-- section: Websites
+- section-title: Websites
   projects:
     - name: InteractiveML
       url: http://interactiveml.brentnequin.com
@@ -7,7 +7,7 @@
     - name: blah
       description: blah
 
-- section: Blah
+- section-title: Blah
   projects:
     - name: blah
       description: blah
