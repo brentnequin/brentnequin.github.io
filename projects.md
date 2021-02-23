@@ -17,7 +17,7 @@ permalink: /projects/
         {% else %}
           <p>{{ project.name }}</p>
         {% endif %}
-        <p>{{ project.description }}</p>
+        <span>{{ project.description }}</span>
       </li>
     {% endfor %}
   </li>
