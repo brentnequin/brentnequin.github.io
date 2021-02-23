@@ -8,7 +8,6 @@ permalink: /projects/
 <ul class="section-list">
   {% for section in site.data.projects %}
   <h2>{{ section-title }}</h2>
-  
   {% for project in section.projects %}
     <li>
       <div class="project-block">
@@ -20,5 +19,6 @@ permalink: /projects/
         <p>{{ project.description }}</p>
       </div>
     </li>
+  {% endfor %}
   {% endfor %}
 </ul>
