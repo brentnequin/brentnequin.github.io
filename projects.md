@@ -11,7 +11,7 @@ permalink: /projects/
     <h2>{{ section.section-title }}</h2>
     {% for project in section.projects %}
       <li class="project-block">
-        <i class="fab fa-{{ icon }}"></i>
+        <i class="fab fa-{{ project.icon }}"></i>
         {% if project.url %}
         <a href="{{ project.url }}"><p>{{ project.name }}</p></a>
         {% else %}
