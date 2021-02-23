@@ -224,6 +224,10 @@ body {
   margin-top: -1.5em;
 }
 
+@media screen and (max-width: 600px) {
+  padding: 1.7em 0 .5em;
+}
+
 /* footer */
 
 .footer-desc {
