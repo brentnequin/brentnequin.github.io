@@ -14,7 +14,7 @@ permalink: /projects/
         {% if project.url %}
         <a rel="external" href="{{ project.url }}"><h2>{{ project.name }}</h2></a>
         {% else %}
-          <h2>{{ project.name }}</h2>
+          <p>{{ project.name }}</p>
         {% endif %}
         <p>{{ project.description }}</p>
       </li>
