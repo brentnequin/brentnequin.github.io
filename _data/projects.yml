@@ -2,7 +2,7 @@
   projects:
     - name: InteractiveML
       url: http://interactiveml.brentnequin.com
-      description: "An interactive web tool designed to visualize various machine learning algorithms. Built with [Flask](https://flask.palletsprojects.com/en/1.1.x/)."
+      description: "An interactive web tool designed to visualize various machine learning algorithms. Built with Flask."
       icon: python
 
 - section-title: Misc
