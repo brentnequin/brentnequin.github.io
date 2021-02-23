@@ -225,7 +225,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  padding: 1.7em 0 .5em;
+  .project-block span {
+    padding: 1.7em 0 .5em;
+  }
 }
 
 /* footer */
