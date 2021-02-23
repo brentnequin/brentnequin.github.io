@@ -12,4 +12,4 @@ permalink: /projects/
     <p>{{ project.description }}</p>
   </div>
 
-{& endfor %}
+{% endfor %}
