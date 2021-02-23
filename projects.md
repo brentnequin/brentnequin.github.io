@@ -5,8 +5,11 @@ permalink: /projects/
 ---
 
 # Projects
-<ul>
-  {% for project in site.data.projects %}
+<ul class="section-list">
+  {% for section in site.data.projects %}
+  <h2>{{ section-title }}</h2>
+  
+  {% for project in section.projects %}
     <li>
       <div class="project-block">
         {% if project.url %}
