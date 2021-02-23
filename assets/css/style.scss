@@ -167,6 +167,11 @@ body {
   color: black;
 }
 
+.page-content a:hover {
+  text-decoration: underline;
+  font-weight: inherit;
+}
+
 .page-content img {
   border-radius: 0.3em;
   box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
