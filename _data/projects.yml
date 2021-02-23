@@ -5,7 +5,7 @@
       description: "An interactive web tool designed to visualize various machine learning algorithms. Built with Flask."
       icon: python
 
-- section-title: Misc
+- section-title: Misc.
   projects:
     - name: Minecraft Status Bot
       url: https://github.com/brentnequin/Minecraft-Server-Status-Bot
