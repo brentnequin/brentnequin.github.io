@@ -13,9 +13,9 @@ permalink: /projects/
       <li class="project-block">
         <i class="fab fa-{{ project.icon }}"></i>
         {% if project.url %}
-        <a href="{{ project.url }}"><h3>{{ project.name }}</h3></a>
+        <a href="{{ project.url }}"><strong>{{ project.name }}</strong></a>
         {% else %}
-          <h3>{{ project.name }}</h3>
+          <strong>{{ project.name }}</strong>
         {% endif %}
         <span>{{ project.description }}</span>
       </li>
