@@ -135,28 +135,12 @@ body {
     }
 }
 /*
-.navbar {
-  display: inline-block;
-  float: right;
-}
-
-.page-link {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-  line-height: 54px;
-}
-
-.page-link:not(:last-child) {
-  margin-right: 20px;
-}*/
-
 .page-link:hover {
   text-decoration: underline;
   color: black;
   font-size: 16px;
   font-weight: inherit;
-}
+}*/
 
 .page-content {
   padding: 30px 0;
@@ -185,6 +169,8 @@ body {
   margin: 0 0 0.5em 1em;
 }
 
+/* About Page */
+
 .education-list > li::marker {
   font-family: 'FontAwesome';
   content: '\f19d';
@@ -208,6 +194,14 @@ body {
   padding: 0;
   color: grey;
 }
+
+/* Projects Page */
+
+.section-list {
+  list-style-type: none;
+}
+
+/* footer */
 
 .footer-desc {
   margin-top: 32px;
