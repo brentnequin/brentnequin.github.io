@@ -7,7 +7,7 @@ permalink: /projects/
 # Projects
 <ul class="section-list">
   {% for section in site.data.projects %}
-  <h2>{{ section-title }}</h2>
+  <h2>{{ section.section-title }}</h2>
   {% for project in section.projects %}
     <li class="project-block">
       {% if project.url %}
