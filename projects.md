@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Projects
 
-{% for project in site.data.projects.yml %}
+{% for project in site.data.projects %}
   <div class="project-block">
     <h2>{{ project.name }}</h2>
     <p>{{ project.description }}</p>
