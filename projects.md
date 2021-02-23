@@ -10,7 +10,7 @@ permalink: /projects/
     <li>
       <div class="project-block">
         {% if project.url %}
-        <a href={{ project.url }}><h2>{{ project.name }}</h2></a>
+        <a href="{{ project.url }}"><h2>{{ project.name }}</h2></a>
         {% else %}
           <h2>{{ project.name }}</h2>
         {% endif %}
