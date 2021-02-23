@@ -1,6 +1,13 @@
-- name: InteractiveML
-  url: http://interactiveml.brentnequin.com
-  description: "An interactive web tool designed to visualize various machine learning algorithms"
+- section: Websites
+  projects:
+    - name: InteractiveML
+      url: http://interactiveml.brentnequin.com
+      description: "An interactive web tool designed to visualize various machine learning algorithms"
+      
+    - name: blah
+      description: blah
 
-- name: blah
-  description: blah
+- section: Blah
+  projects:
+    - name: blah
+      description: blah
