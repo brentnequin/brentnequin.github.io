@@ -13,7 +13,7 @@ permalink: /projects/
       <li class="project-block">
         <i class="fab fa-{{ icon }}"></i>
         {% if project.url %}
-        <a rel="external" href="{{ project.url }}"><p>{{ project.name }}</p></a>
+        <a href="{{ project.url }}"><p>{{ project.name }}</p></a>
         {% else %}
           <p>{{ project.name }}</p>
         {% endif %}
