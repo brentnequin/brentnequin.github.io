@@ -4,4 +4,4 @@ title: Privacy
 permalink: /privacy/
 ---
 
-test
+This is my personal website. The website uses (Google Analytics)[https://analytics.google.com/analytics/web/].
