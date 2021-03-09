@@ -4,4 +4,4 @@ title: Brent Nequin
 collections:
   posts:
     output: true
-    permalink: /:collection/:name
+    permalink: /blog/:title
