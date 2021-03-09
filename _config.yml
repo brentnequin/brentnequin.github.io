@@ -2,6 +2,6 @@ theme: jekyll-theme-minimal
 title: Brent Nequin
 
 collections:
-  blog:
+  posts:
     output: true
     permalink: /:collection/:name
