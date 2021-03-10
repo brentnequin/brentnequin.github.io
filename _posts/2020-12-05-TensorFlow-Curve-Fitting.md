@@ -12,7 +12,7 @@ The goal is to create a neural network model that estimates a nonlinear function
 
 In this example, $x(t)$ will be given by
 
-$$x(t) = sin(20t) + 3t + v(t)$$,
+\\[x(t) = sin(20t) + 3t + v(t)\\],
 
 where $v(t)$, the noise, is zero-mean Gaussian with variance 0.3.
 
