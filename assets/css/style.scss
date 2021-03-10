@@ -225,6 +225,10 @@ body {
   margin-top: 20px;
 }
 
+.post-index .post-container small:hover {
+  text-decoration: underline;
+}
+
 .post-index .post-container:not(:last-child) {
   margin-bottom: 30px;
 }
