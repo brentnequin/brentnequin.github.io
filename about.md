@@ -8,7 +8,7 @@ permalink: /about/
 
 <img class="about-pic" align="right" src="/assets/img/profilepicture.jpg" width="200">
 
-## Education
+### Education
 <ul class="education-list">
     <li><span>MS in Electrical Engineering, 2020</span></li>
     <ul><li>University of Illinois at Chicago</li></ul>
@@ -16,8 +16,8 @@ permalink: /about/
     <ul><li>University of Illinois at Chicago</li></ul>
 </ul>
 
-## Courses
+### Courses
 blah
 
-## Hobbies
+### Hobbies
 blah
