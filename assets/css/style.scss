@@ -225,6 +225,13 @@ body {
   margin-top: 20px;
 }
 
+.post-index .post-container small:hover, .excerpt:hover {
+  text-decoration: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 .post-index .post-container:not(:last-child) {
   margin-bottom: 30px;
 }
