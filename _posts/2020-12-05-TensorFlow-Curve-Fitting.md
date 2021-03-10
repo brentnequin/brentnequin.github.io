@@ -7,6 +7,7 @@ excerpt_separator: <!--more-->
 ---
 This post explains how to build a neural network model using TensorFlow to perform nonlinear fitting.
 <!--more-->
+
 The goal is to create a neural network model that estimates a nonlinear function with added noise $x(t)$.
 
 In this example, $x(t)$ will be given by
