@@ -213,8 +213,12 @@ body {
 
 /* Blog Page */
 
+.postindex .post-container h2 {
+  margin-bottom: 5px;
+}
+
 .post-index .post-container:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* Projects Page */
