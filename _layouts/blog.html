@@ -4,10 +4,12 @@ layout: default
 
 {{content}}
 
-<ul>
+<div class="post-index">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <a href="{{ post.url }}">
+        <h1>{{ post.title }}</h1>
+        <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+        <p>{{ post.description }}</p>
+      </a>
   {% endfor %}
-</ul>
+</div>
