@@ -4,6 +4,7 @@ title: Curve Fitting Using Neural Networks With TensorFlow
 published-on: 2020-12-05T14:45:00Z
 description: This post explains how to build a neural network model using TensorFlow to perform nonlinear fitting.
 tags: Neural-Networks TensorFlow
+excerpt_separator: <!--more-->
 ---
 
 # Curve Fitting Using Neural Networks With TensorFlow
@@ -11,7 +12,7 @@ tags: Neural-Networks TensorFlow
 This example is a great place to start learning how to use TensorFlow for neural network model design.
 
 The goal is to create a neural network model that estimates a nonlinear function with added noise $x(t)$.
-
+<!--more-->
 In this example, $x(t)$ will be given by
 
 $$x(t) = sin(20t) + 3t + v(t)$$,
