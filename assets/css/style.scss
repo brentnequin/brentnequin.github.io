@@ -213,8 +213,12 @@ body {
 
 /* Blog Page */
 
-.postindex .post-container h2 {
+.post-index .post-container h2 {
   margin-bottom: 5px;
+}
+
+.post-index .post-container p {
+  margin: 0;
 }
 
 .post-index .post-container:not(:last-child) {
