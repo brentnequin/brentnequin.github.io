@@ -11,4 +11,6 @@ Sometimes I enjoy writing posts about some of the things I am interested in on m
 
 Sometimes I spend my time working on [projects](http://brentnequin.com/projects/) to sharpen my programming skills.
 
+I am currently based in Chicago, IL working for [The Numina Group](https://numinagroup.com).
+
 The easiest way to contact me is by email at <brentnequin@gmail.com>.
