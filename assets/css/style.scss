@@ -211,6 +211,12 @@ body {
   color: grey;
 }
 
+/* Blog Page */
+
+.post-index .post-container:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 /* Projects Page */
 
 .section-list {
