@@ -8,13 +8,13 @@ excerpt_separator: <!--more-->
 This post explains how to build a neural network model using TensorFlow to perform nonlinear fitting.
 <!--more-->
 
-The goal is to create a neural network model that estimates a nonlinear function with added noise \\(x(t)\\).
+The goal is to create a neural network model that estimates a nonlinear function with added noise $x(t)$.
 
-In this example, \\(x(t)\\) will be given by
+In this example, $x(t)$ will be given by
 
-\\[x(t) = sin(20t) + 3t + v(t) \text{,}\\]
+$$x(t) = sin(20t) + 3t + v(t) \text{,}$$
 
-where \\(v(t)\\), the noise, is zero-mean Gaussian with variance 0.3.
+where $v(t)$, the noise, is zero-mean Gaussian with variance 0.3.
 
 ```python
 t = np.random.uniform(0, 1, size=(n))
@@ -22,7 +22,8 @@ v = np.random.normal(0, 0.3, size=(n))
 x = np.sin(20*t) + 3*t + v
 ```
 
-Here, \\(t\\) defines a set of \\(n\\) points between 0 and 1.
+Here, $t$ defines a set of $n$ points between 0 and 1.
+
 
 ## Build Model
 
@@ -42,6 +43,7 @@ model.add(layers.Dense(128, activation = 'relu'))
 model.add(layers.Dense(128, activation = 'relu'))
 model.add(layers.Dense(1))
 ```
+
 
 ## Train Model
 
@@ -123,6 +125,7 @@ fig = go.Figure(
 fig.show()
 ```
 
+
 ## Test Model
 
 When the training is over, we will test the model by first defining a new line that will be used to estimate the nonlinear function:
@@ -131,19 +134,20 @@ When the training is over, we will test the model by first defining a new line t
 t1 = np.random.uniform(0, 1, size=(100))
 ```
 
-This is similar to the \\(t\\) defined before but of a smaller size.
+This is similar to the $t$ defined before but of a smaller size.
 
-Then, we feed \\(t_1\\) to the model.
+Then, we feed $t_1$ to the model.
 
 ```python
 y1_pred = model.predict(t1)
 ```
 
-Here is a plot of the output points after feeding \\(t_1\\) to the model:
+Here is a plot of the output points after feeding $t_1$ to the model:
 
 ![5](/assets/img/20201205-5.png)
 
 Visually we can see that the curve does not look entirely like a smooth sine wave as some peaks are rather sharp. The model seems to have converged in this fashion as a result of computing the MSE after each epoch. From this, we conclude that the red waveform you see is the best fit line (that is, after 700 epochs during training) that estimates the nonlinear function.
+
 
 ## Remark
 
@@ -153,4 +157,4 @@ Defining a new set of input values over a larger range (from -1 to 2) which is f
 
 ![6](/assets/img/20201205-6.png)
 
-The result is due to the fact that we did not train the model for points outside of the range \\([0,1]\\). In order to have the ends of the curve bend in the same way as the points between 0 and 1, we need to have our training set include all points between -1 and 2.
+The result is due to the fact that we did not train the model for points outside of the range $[0,1]$. In order to have the ends of the curve bend in the same way as the points between 0 and 1, we need to have our training set include all points between -1 and 2.
