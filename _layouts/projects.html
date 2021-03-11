@@ -7,7 +7,7 @@ layout: default
 <ul class="section-list">
   {% for section in site.data.projects %}
   <li class="section-block">
-    <h2>{{ section.section-title }}</h2>
+    <h3>{{ section.section-title }}</h3>
     {% for project in section.projects %}
       <li class="project-block">
         <i class="fab fa-{{ project.icon }}"></i>
