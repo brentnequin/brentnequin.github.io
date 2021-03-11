@@ -16,8 +16,7 @@ permalink: /about/
     <ul><li>University of Illinois at Chicago</li></ul>
 </ul>
 
-### Courses
-blah
-
 ### Hobbies
-blah
+* Music
+* Food
+* Games
