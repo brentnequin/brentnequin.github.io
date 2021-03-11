@@ -22,7 +22,7 @@ v = np.random.normal(0, 0.3, size=(n))
 x = np.sin(20*t) + 3*t + v
 ```
 
-Here, \\(t\\) defines a set of $n$ points between 0 and 1.
+Here, \\(t\\) defines a set of \\(n\\) points between 0 and 1.
 
 ## Build Model
 
