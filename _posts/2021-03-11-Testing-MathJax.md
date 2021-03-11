@@ -8,4 +8,4 @@ Just testing some MathJax stuff here
 
 $x + 3$
 
-$$x + 3 $$
+$$x + 3$$
