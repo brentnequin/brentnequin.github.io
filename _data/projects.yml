@@ -4,10 +4,11 @@
       url: http://interactiveml.brentnequin.com
       description: "An interactive web tool designed to visualize various machine learning algorithms. Built with Flask."
       icon: python
+      
     - name: Course Grade Calculator
       url: https://course-grade-calculator.herokuapp.com
       description: "A React-based web application designed for college students to calculate the current or foreseeable grade in an enrolled course. Deployed using Heroku."
-      icon: python
+      icon: react
 
 - section-title: Misc.
   projects:
