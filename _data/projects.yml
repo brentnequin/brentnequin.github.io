@@ -6,7 +6,7 @@
       icon: python
       
     - name: Course Grade Calculator
-      url: https://course-grade-calculator.brentnequin.com
+      url: http://course-grade-calculator.brentnequin.com
       description: "A simple React-based web application designed for college students to calculate the current or foreseeable grade in an enrolled course."
       icon: react
 
