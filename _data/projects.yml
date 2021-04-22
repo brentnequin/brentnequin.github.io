@@ -6,7 +6,7 @@
       icon: python
       
     - name: Course Grade Calculator
-      url: https://course-grade-calculator.herokuapp.com
+      url: https://course-grade-calculator.brentnequin.com
       description: "A React-based web application designed for college students to calculate the current or foreseeable grade in an enrolled course. Deployed using Heroku."
       icon: react
 
