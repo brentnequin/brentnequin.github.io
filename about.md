@@ -18,6 +18,8 @@ permalink: /about/
 
 ### Hobbies
 
-#### Music
-#### Food
-#### Games
+<div class="music-list">
+    
+<div class="games-list">
+    
+<div class="food-list">
