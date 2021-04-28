@@ -17,6 +17,7 @@ permalink: /about/
 </ul>
 
 ### Hobbies
-* Music
-* Food
-* Games
+
+#### Music
+#### Food
+#### Games
