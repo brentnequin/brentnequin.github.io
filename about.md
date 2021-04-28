@@ -6,7 +6,7 @@ permalink: /about/
 
 # About Brent
 
-<img class="about-pic" align="right" src="/assets/img/profilepicture.jpg" width="200">
+<img class="about-pic" align="right" src="/assets/img/portrait.jpg" width="200">
 
 ### Education
 <ul class="education-list">
