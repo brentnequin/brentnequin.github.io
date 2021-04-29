@@ -1,9 +1,13 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-gem "jekyll"
+git_source(:github) {|brentnequin| "https://github.com/brentnequin/brentnequin.github.io/" }
 
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
-  gem "jekyll-contentblocks" 
-end 
+# gem "rails"
+
+gem "jekyll", '~> 3.5'
+
+gem 'jekyll-theme-minimal', '~> 0.1.1'
+
+gem 'kramdown-parser-gfm', '~> 1.1'
