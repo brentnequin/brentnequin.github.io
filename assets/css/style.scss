@@ -105,6 +105,7 @@ body {
     z-index: 2;
     cursor: pointer;
   }
+
   .site-nav .menu-icon {
     display: block;
     float: right;
@@ -117,19 +118,23 @@ body {
   .site-nav .menu-icon > svg path {
     fill: #424242;
   }
+
   .site-nav input ~ .trigger {
     clear: both;
     display: none;
   }
+
   .site-nav input:checked ~ .trigger {
     display: block;
     padding-bottom: 5px;
   }
+
   .site-nav .page-link {
     display: block;
     padding: 5px 10px;
     margin-left: 20px;
   }
+
   .site-nav .page-link:not(:last-child) {
     margin-right: 0;
   }
@@ -160,11 +165,16 @@ body {
 }
 
 .page-content h2 {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: 400;
 }
 
 .page-content h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.page-content h4 {
   font-size: 20px;
   font-weight: 400;
 }
@@ -213,10 +223,53 @@ body {
   color: grey;
 }
 
+.music-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.music-list > li {
+  float: left;
+  display: inline;
+  margin: 10px;
+  width: calc(740px / 2 - 20px);
+}
+
+.music-list h4 {
+  text-align: center;
+}
+
+.music-list iframe {
+  width: 100%;
+}
+
+@media print, screen and (max-width: 800px) {
+  .music-list {
+    width: 100%;
+  }
+  
+  .music-list > li {
+    clear: both;
+    width: 100%;
+    margin: auto;
+  }
+
+  .music-list iframe {
+    width: 400px;
+    display:block;
+    margin: 0 auto;
+  }
+
+  .music-list > li:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 /* Blog Page */
 
 .post-index .post-container h2 {
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .post-index .post-container p {
