@@ -13,4 +13,6 @@ group :jekyll_plugins do
    gem 'jekyll-contentblocks', '~> 1.2'
  end
 
+gem 'github-pages'
+
 gem 'kramdown-parser-gfm', '~> 1.1'
