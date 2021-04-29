@@ -10,18 +10,15 @@ permalink: /about/
 
 Brent is a software engineer currently working for [The Numina Group](https://numinagroup.com) in Woodridge, IL. He received his Master of Science in Electrical Engineering from the University of Illinois at Chicago in December of 2020. He favors [React](https://reactjs.org) for building projects and enjoys coding most in C, JavaScript, and Python. He is also currently learning [Julia](https://julialang.org) and [Ruby](https://www.ruby-lang.org/en/).
 
-{% contentfor education-section %}
-<h3>Education</h3>
+### Education
 <ul class="education-list">
     <li><span>MS in Electrical Engineering, 2020</span></li>
     <ul><li>University of Illinois at Chicago</li></ul>
     <li><span>BS in Electrical Engineering, 2019</span></li>
     <ul><li>University of Illinois at Chicago</li></ul>
 </ul>
-{% endcontentfor %}
 
-{% contentfor music-section %}
-<h3>Music</h3>
+### Music
 <ul class="music-list">
     <li><span>
         <h4>That I've Made</h4>
@@ -32,4 +29,3 @@ Brent is a software engineer currently working for [The Numina Group](https://nu
         <iframe style="border: 0; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=336220123/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/artwork=small/track=6000268/transparent=false/" seamless><a href="https://caspiantheband.bandcamp.com/album/on-circles">On Circles by Caspian</a></iframe>
     </span></li>
 </ul>
-{% endcontentfor %}
