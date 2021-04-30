@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Brent Nequin
-
 collections:
   posts:
     output: true
     permalink: /blog/:title
+output_dir: "_posts"
