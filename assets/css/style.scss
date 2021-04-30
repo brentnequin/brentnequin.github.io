@@ -144,6 +144,9 @@ body {
   header {
     padding-right: 0px;
   }
+  .wrapper {
+    margin: auto !important; // jekyll theme made me do it
+  }
 }
 
 .page-link:hover {
@@ -255,7 +258,7 @@ body {
   }
 
   .music-list iframe {
-    width: 400px;
+    max-width: 400px;
     display:block;
     margin: 0 auto;
   }
